@@ -11,7 +11,7 @@ import org.springframework.stereotype.Component;
 import com.avsoft.hospital.Exception.PatientServiceException;
 
 
-public class PerformanceAspect {
+public class PerformanceAspects {
 
 	@Around("execution(* com.avsoft.hospital.controller.PatientController.*(..))")
 	public Object checkPerformance(ProceedingJoinPoint pj) throws Throwable {
