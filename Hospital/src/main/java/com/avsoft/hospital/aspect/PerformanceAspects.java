@@ -32,6 +32,7 @@ public class PerformanceAspects {
 	}
 	@AfterThrowing("execution(* com.avsoft.hospital.controller.PatientController.*(..))")
 	public void exceptionHandling(Throwable  e) throws Throwable {
+///////
 
 	
 		
