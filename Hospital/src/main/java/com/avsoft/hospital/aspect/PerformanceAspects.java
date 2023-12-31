@@ -16,7 +16,7 @@ public class PerformanceAspects {
 	@Around("execution(* com.avsoft.hospital.controller.PatientController.*(..))")
 	public Object checkPerformance(ProceedingJoinPoint pj) throws Throwable {
 
-		
+		System.out.println();
 		Object o;
 		try {
 		o =pj.proceed();
