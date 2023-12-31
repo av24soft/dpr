@@ -34,7 +34,7 @@ public class PerformanceAspects {
 	public void exceptionHandling(Throwable  e) throws Throwable {
 
 	
-		System.out.println("this is rollback");
+		
 	
 	}
 	
